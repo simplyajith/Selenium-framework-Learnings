@@ -2,6 +2,7 @@ import unittest
 from selenium import webdriver
 from values import strings  # Make sure framework folder is present in system path(Environment variable)
 from pageobjects import homescreen,deals
+from helpers import HTMLTestRunner
 
 
 class Test_amazon(unittest.TestCase):
@@ -30,4 +31,10 @@ class Test_amazon(unittest.TestCase):
         cls.driver.quit()
 
 if __name__ == '__main__':
-    unittest.main()
+    fp = file('..\Reports\Testreport.html', 'wb')
+    runner = HTMLTestRunner.HTMLTestRunner(
+        stream=fp,
+        title='Sanity Test',
+        description='This demonstrates the report output by HTMLTestRunner.'
+    )
+    unittest.main(testRunner=runner)
