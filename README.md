@@ -7,3 +7,10 @@ Download HTMLTestRunner from below location and save it in Helpers folder.
 http://tungwaiyip.info/software/HTMLTestRunner.html
 
 Thanks All. Signing off. 
+
+Reference:
+
+https://qaboy.com/
+https://selenium-python.readthedocs.io/
+
+
