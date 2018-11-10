@@ -1,4 +1,4 @@
-# Sample-framework
+# Sample-selenium-framework
 
 For executing test cases, unit test module is used in this framework.unittest module is in-built supported by python and hence, it doesn't need any installation.
 
